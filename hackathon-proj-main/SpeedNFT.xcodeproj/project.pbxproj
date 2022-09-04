@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D17FE672800E8750041D75D /* SpeedNFTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17FE662800E8750041D75D /* SpeedNFTApp.swift */; };
+		1D17FE692800E8750041D75D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17FE682800E8750041D75D /* ContentView.swift */; };
+		1D17FE6B2800E8760041D75D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D17FE6A2800E8760041D75D /* Assets.xcassets */; };
+		1D17FE6E2800E8760041D75D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D17FE6D2800E8760041D75D /* Preview Assets.xcassets */; };
+		1D17FE782800E8760041D75D /* SpeedNFTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17FE772800E8760041D75D /* SpeedNFTTests.swift */; };
+		1D17FE822800E8760041D75D /* SpeedNFTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17FE812800E8760041D75D /* SpeedNFTUITests.swift */; };
+		1D17FE842800E8760041D75D /* SpeedNFTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D17FE832800E8760041D75D /* SpeedNFTUITestsLaunchTests.swift */; };
+		1D5176B42800F36300D97FD0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5176B32800F36300D97FD0 /* MapView.swift */; };
+		1D5176B72800F6E600D97FD0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5176B62800F6E600D97FD0 /* Location.swift */; };
+		1D5176BB2801262B00D97FD0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D5176BA2801262B00D97FD0 /* CoreLocation.framework */; };
+		1D5176BD280127A800D97FD0 /* MapStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D5176BC280127A800D97FD0 /* MapStoryBoard.storyboard */; };
+		1D5176BF2801373B00D97FD0 /* Color2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5176BE2801373B00D97FD0 /* Color2.swift */; };
+		1D5176C2280139B600D97FD0 /* SpeedTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5176C1280139B600D97FD0 /* SpeedTheme.swift */; };
+		1D5176C428013EFC00D97FD0 /* Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5176C328013EFC00D97FD0 /* Monitor.swift */; };
+		1D5176C62801540C00D97FD0 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5176C52801540C00D97FD0 /* LogView.swift */; };
+		1DF963A22802033F000C9C38 /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DF9639D2802033F000C9C38 /* 0.mp3 */; };
+		1DF963A32802033F000C9C38 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DF9639E2802033F000C9C38 /* 1.mp3 */; };
+		1DF963A42802033F000C9C38 /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DF9639F2802033F000C9C38 /* 4.mp3 */; };
+		1DF963A52802033F000C9C38 /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DF963A02802033F000C9C38 /* 2.mp3 */; };
+		1DF963A62802033F000C9C38 /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1DF963A12802033F000C9C38 /* 3.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D17FE742800E8760041D75D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D17FE5B2800E8750041D75D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D17FE622800E8750041D75D;
+			remoteInfo = SpeedNFT;
+		};
+		1D17FE7E2800E8760041D75D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D17FE5B2800E8750041D75D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D17FE622800E8750041D75D;
+			remoteInfo = SpeedNFT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D17FE632800E8750041D75D /* SpeedNFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedNFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D17FE662800E8750041D75D /* SpeedNFTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedNFTApp.swift; sourceTree = "<group>"; };
+		1D17FE682800E8750041D75D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1D17FE6A2800E8760041D75D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D17FE6D2800E8760041D75D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D17FE732800E8760041D75D /* SpeedNFTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedNFTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D17FE772800E8760041D75D /* SpeedNFTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedNFTTests.swift; sourceTree = "<group>"; };
+		1D17FE7D2800E8760041D75D /* SpeedNFTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedNFTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D17FE812800E8760041D75D /* SpeedNFTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedNFTUITests.swift; sourceTree = "<group>"; };
+		1D17FE832800E8760041D75D /* SpeedNFTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedNFTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1D5176B32800F36300D97FD0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		1D5176B62800F6E600D97FD0 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		1D5176B82801153C00D97FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1D5176BA2801262B00D97FD0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1D5176BC280127A800D97FD0 /* MapStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapStoryBoard.storyboard; sourceTree = "<group>"; };
+		1D5176BE2801373B00D97FD0 /* Color2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color2.swift; sourceTree = "<group>"; };
+		1D5176C1280139B600D97FD0 /* SpeedTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTheme.swift; sourceTree = "<group>"; };
+		1D5176C328013EFC00D97FD0 /* Monitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monitor.swift; sourceTree = "<group>"; };
+		1D5176C52801540C00D97FD0 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		1DF9639D2802033F000C9C38 /* 0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0.mp3; sourceTree = "<group>"; };
+		1DF9639E2802033F000C9C38 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		1DF9639F2802033F000C9C38 /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		1DF963A02802033F000C9C38 /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		1DF963A12802033F000C9C38 /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D17FE602800E8750041D75D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5176BB2801262B00D97FD0 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D17FE702800E8760041D75D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D17FE7A2800E8760041D75D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D17FE5A2800E8750041D75D = {
+			isa = PBXGroup;
+			children = (
+				1D17FE652800E8750041D75D /* SpeedNFT */,
+				1D17FE762800E8760041D75D /* SpeedNFTTests */,
+				1D17FE802800E8760041D75D /* SpeedNFTUITests */,
+				1D17FE642800E8750041D75D /* Products */,
+				1D5176B92801262B00D97FD0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D17FE642800E8750041D75D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D17FE632800E8750041D75D /* SpeedNFT.app */,
+				1D17FE732800E8760041D75D /* SpeedNFTTests.xctest */,
+				1D17FE7D2800E8760041D75D /* SpeedNFTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D17FE652800E8750041D75D /* SpeedNFT */ = {
+			isa = PBXGroup;
+			children = (
+				1D3DFD462801D2FA0031DA7B /* Sounds */,
+				1D5176C0280139A300D97FD0 /* Themes */,
+				1D5176B82801153C00D97FD0 /* Info.plist */,
+				1D5176B52800F6CC00D97FD0 /* Util */,
+				1D17FE662800E8750041D75D /* SpeedNFTApp.swift */,
+				1D17FE682800E8750041D75D /* ContentView.swift */,
+				1D17FE6A2800E8760041D75D /* Assets.xcassets */,
+				1D17FE6C2800E8760041D75D /* Preview Content */,
+				1D5176B32800F36300D97FD0 /* MapView.swift */,
+				1D5176BC280127A800D97FD0 /* MapStoryBoard.storyboard */,
+			);
+			path = SpeedNFT;
+			sourceTree = "<group>";
+		};
+		1D17FE6C2800E8760041D75D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1D17FE6D2800E8760041D75D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D17FE762800E8760041D75D /* SpeedNFTTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D17FE772800E8760041D75D /* SpeedNFTTests.swift */,
+			);
+			path = SpeedNFTTests;
+			sourceTree = "<group>";
+		};
+		1D17FE802800E8760041D75D /* SpeedNFTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D17FE812800E8760041D75D /* SpeedNFTUITests.swift */,
+				1D17FE832800E8760041D75D /* SpeedNFTUITestsLaunchTests.swift */,
+			);
+			path = SpeedNFTUITests;
+			sourceTree = "<group>";
+		};
+		1D3DFD462801D2FA0031DA7B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1DF9639D2802033F000C9C38 /* 0.mp3 */,
+				1DF9639E2802033F000C9C38 /* 1.mp3 */,
+				1DF963A02802033F000C9C38 /* 2.mp3 */,
+				1DF963A12802033F000C9C38 /* 3.mp3 */,
+				1DF9639F2802033F000C9C38 /* 4.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		1D5176B52800F6CC00D97FD0 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1D5176B62800F6E600D97FD0 /* Location.swift */,
+				1D5176BE2801373B00D97FD0 /* Color2.swift */,
+				1D5176C328013EFC00D97FD0 /* Monitor.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		1D5176B92801262B00D97FD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D5176BA2801262B00D97FD0 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D5176C0280139A300D97FD0 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				1D5176C1280139B600D97FD0 /* SpeedTheme.swift */,
+				1D5176C52801540C00D97FD0 /* LogView.swift */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D17FE622800E8750041D75D /* SpeedNFT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D17FE872800E8760041D75D /* Build configuration list for PBXNativeTarget "SpeedNFT" */;
+			buildPhases = (
+				1D17FE5F2800E8750041D75D /* Sources */,
+				1D17FE602800E8750041D75D /* Frameworks */,
+				1D17FE612800E8750041D75D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedNFT;
+			productName = SpeedNFT;
+			productReference = 1D17FE632800E8750041D75D /* SpeedNFT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D17FE722800E8760041D75D /* SpeedNFTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D17FE8A2800E8760041D75D /* Build configuration list for PBXNativeTarget "SpeedNFTTests" */;
+			buildPhases = (
+				1D17FE6F2800E8760041D75D /* Sources */,
+				1D17FE702800E8760041D75D /* Frameworks */,
+				1D17FE712800E8760041D75D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D17FE752800E8760041D75D /* PBXTargetDependency */,
+			);
+			name = SpeedNFTTests;
+			productName = SpeedNFTTests;
+			productReference = 1D17FE732800E8760041D75D /* SpeedNFTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D17FE7C2800E8760041D75D /* SpeedNFTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D17FE8D2800E8760041D75D /* Build configuration list for PBXNativeTarget "SpeedNFTUITests" */;
+			buildPhases = (
+				1D17FE792800E8760041D75D /* Sources */,
+				1D17FE7A2800E8760041D75D /* Frameworks */,
+				1D17FE7B2800E8760041D75D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D17FE7F2800E8760041D75D /* PBXTargetDependency */,
+			);
+			name = SpeedNFTUITests;
+			productName = SpeedNFTUITests;
+			productReference = 1D17FE7D2800E8760041D75D /* SpeedNFTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D17FE5B2800E8750041D75D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					1D17FE622800E8750041D75D = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					1D17FE722800E8760041D75D = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 1D17FE622800E8750041D75D;
+					};
+					1D17FE7C2800E8760041D75D = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 1D17FE622800E8750041D75D;
+					};
+				};
+			};
+			buildConfigurationList = 1D17FE5E2800E8750041D75D /* Build configuration list for PBXProject "SpeedNFT" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D17FE5A2800E8750041D75D;
+			productRefGroup = 1D17FE642800E8750041D75D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D17FE622800E8750041D75D /* SpeedNFT */,
+				1D17FE722800E8760041D75D /* SpeedNFTTests */,
+				1D17FE7C2800E8760041D75D /* SpeedNFTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D17FE612800E8750041D75D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D17FE6E2800E8760041D75D /* Preview Assets.xcassets in Resources */,
+				1D17FE6B2800E8760041D75D /* Assets.xcassets in Resources */,
+				1D5176BD280127A800D97FD0 /* MapStoryBoard.storyboard in Resources */,
+				1DF963A42802033F000C9C38 /* 4.mp3 in Resources */,
+				1DF963A22802033F000C9C38 /* 0.mp3 in Resources */,
+				1DF963A52802033F000C9C38 /* 2.mp3 in Resources */,
+				1DF963A62802033F000C9C38 /* 3.mp3 in Resources */,
+				1DF963A32802033F000C9C38 /* 1.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D17FE712800E8760041D75D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D17FE7B2800E8760041D75D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D17FE5F2800E8750041D75D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D17FE692800E8750041D75D /* ContentView.swift in Sources */,
+				1D5176BF2801373B00D97FD0 /* Color2.swift in Sources */,
+				1D5176C428013EFC00D97FD0 /* Monitor.swift in Sources */,
+				1D5176B42800F36300D97FD0 /* MapView.swift in Sources */,
+				1D5176B72800F6E600D97FD0 /* Location.swift in Sources */,
+				1D5176C62801540C00D97FD0 /* LogView.swift in Sources */,
+				1D17FE672800E8750041D75D /* SpeedNFTApp.swift in Sources */,
+				1D5176C2280139B600D97FD0 /* SpeedTheme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D17FE6F2800E8760041D75D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D17FE782800E8760041D75D /* SpeedNFTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D17FE792800E8760041D75D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D17FE842800E8760041D75D /* SpeedNFTUITestsLaunchTests.swift in Sources */,
+				1D17FE822800E8760041D75D /* SpeedNFTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D17FE752800E8760041D75D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D17FE622800E8750041D75D /* SpeedNFT */;
+			targetProxy = 1D17FE742800E8760041D75D /* PBXContainerItemProxy */;
+		};
+		1D17FE7F2800E8760041D75D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D17FE622800E8750041D75D /* SpeedNFT */;
+			targetProxy = 1D17FE7E2800E8760041D75D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D17FE852800E8760041D75D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D17FE862800E8760041D75D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D17FE882800E8760041D75D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeedNFT/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeedNFT/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Do location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackathon.SpeedNFT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D17FE892800E8760041D75D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeedNFT/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeedNFT/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Do location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackathon.SpeedNFT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1D17FE8B2800E8760041D75D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackathon.SpeedNFTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedNFT.app/SpeedNFT";
+			};
+			name = Debug;
+		};
+		1D17FE8C2800E8760041D75D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackathon.SpeedNFTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedNFT.app/SpeedNFT";
+			};
+			name = Release;
+		};
+		1D17FE8E2800E8760041D75D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackathon.SpeedNFTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedNFT;
+			};
+			name = Debug;
+		};
+		1D17FE8F2800E8760041D75D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Hackathon.SpeedNFTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedNFT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D17FE5E2800E8750041D75D /* Build configuration list for PBXProject "SpeedNFT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D17FE852800E8760041D75D /* Debug */,
+				1D17FE862800E8760041D75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D17FE872800E8760041D75D /* Build configuration list for PBXNativeTarget "SpeedNFT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D17FE882800E8760041D75D /* Debug */,
+				1D17FE892800E8760041D75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D17FE8A2800E8760041D75D /* Build configuration list for PBXNativeTarget "SpeedNFTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D17FE8B2800E8760041D75D /* Debug */,
+				1D17FE8C2800E8760041D75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D17FE8D2800E8760041D75D /* Build configuration list for PBXNativeTarget "SpeedNFTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D17FE8E2800E8760041D75D /* Debug */,
+				1D17FE8F2800E8760041D75D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D17FE5B2800E8750041D75D /* Project object */;
+}
