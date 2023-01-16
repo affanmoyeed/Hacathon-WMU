@@ -2,7 +2,7 @@
 //  Location.swift
 //  SpeedNFT
 //
-//  Created by Dakota Shapiro on 4/8/22.
+//  Created by Dakota Shapiro & Affan Moyeed on 4/8/22.
 //
 
 import Foundation
